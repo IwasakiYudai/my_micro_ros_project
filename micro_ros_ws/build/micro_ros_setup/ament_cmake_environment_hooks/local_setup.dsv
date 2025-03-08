@@ -1,0 +1,2 @@
+source;share/micro_ros_setup/environment/ament_prefix_path.bat
+source;share/micro_ros_setup/environment/path.bat

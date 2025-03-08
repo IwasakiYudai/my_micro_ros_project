@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.000000] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.078000] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.094000] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.094000] (micro_ros_setup) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--build', 'c:\\dev\\micro_ros_ws\\build\\micro_ros_setup', '--config', 'Release'], 'cwd': 'c:\\dev\\micro_ros_ws\\build\\micro_ros_setup', 'env': {'ALLUSERSPROFILE': 'C:\\ProgramData', 'APPDATA': 'C:\\Users\\yudai\\AppData\\Roaming', 'ChocolateyInstall': 'C:\\ProgramData\\chocolatey', 'ChocolateyLastPathUpdate': '133858521267476712', 'COLCON': '1', 'CommonProgramFiles': 'C:\\Program Files\\Common Files', 'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files', 'CommonProgramW6432': 'C:\\Program Files\\Common Files', 'COMPUTERNAME': 'LAPTOP-MNJFE5I1', 'ComSpec': 'C:\\WINDOWS\\system32\\cmd.exe', 'DriverData': 'C:\\Windows\\System32\\Drivers\\DriverData', 'HOMEDRIVE': 'C:', 'HOMEPATH': '\\Users\\yudai', 'HOOPS_LICENSE_KEY': 'c480f7b0c8c5d9481972b65e5bb8%;feae791a3ea8364138cf2d013afcdba1c5161243159cce85783736b215543765278a49565401db0f07d7a21c7c8e79b7e332b480902bcbaca254b0728a1312b970b35c5f62ba9daa4739dc50e3a32e93b9be312778f2db4fa3083142a5a0de18b12616a6e748ba5d0daf5493279a73406f200e%;d0b9', 'IGCCSVC_DB': 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA64KZRa+4tU6qWsK5kZm6QgQAAAACAAAAAAAQZgAAAAEAACAAAAB1EzhfxtanHg0xLDV2JgrGvCySV6RbFGb4LJbejwXpfgAAAAAOgAAAAAIAACAAAADRxknnqFfezujPOb/1LHwJyxEURHbesKT4yaw5Lh39QmAAAACcO/6r431eJpH2FRAIf0YnUpNs86AMg/BaPfnbsyx5JQ1B4lEO8V86NPeVVxAETr6aM6necuBtzWNHEdvfRqbVOOUiGpTF8QGC1zspKusqv2Wm92MaMCKgxxES7bODQGJAAAAAzE8tf2bBkcV5s1M2xxoHXx2S0SjGdCNeDA0u/WXaEMKTQBE+A8UhOeMa41PNBmUG6wgq7G3x3mEpVQr5ECgxWg==', 'LOCALAPPDATA': 'C:\\Users\\yudai\\AppData\\Local', 'LOGONSERVER': '\\\\LAPTOP-MNJFE5I1', 'NUMBER_OF_PROCESSORS': '8', 'OneDrive': 'C:\\Users\\yudai\\OneDrive', 'OneDriveConsumer': 'C:\\Users\\yudai\\OneDrive', 'OPENSSL_CONF': 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg', 'OS': 'Windows_NT', 'Path': 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\SIMULIA\\Commands;C:\\Program Files\\Semeru\\jre-11.0.17.8-openj9\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86\\;C:\\Program Files (x86)\\Common Files\\Pulse Secure\\TNC Client Plugin\\;C:\\Program Files\\MATLAB\\R2022b\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PowerShell\\7\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Users\\yudai\\.cargo\\bin;C:\\Users\\yudai\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yudai\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\texlive\\2023\\bin\\windows;C:\\Users\\yudai\\AppData\\Local\\atom\\bin;C:\\Users\\yudai\\pneumatic-arm-control;C:\\Users\\yudai\\mingw64\\bin;C:\\texlive\\2023\\tlpkg\\tlperl\\bin;C:\\Users\\yudai\\.dotnet\\tools;C:\\Users\\yudai\\AppData\\Roaming\\Programs\\Zero Install;C:\\Users\\yudai\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\OpenSSL-Win64\\bin', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'POWERSHELL_DISTRIBUTION_CHANNEL': 'MSI:Windows 10 Pro', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel', 'PROCESSOR_LEVEL': '6', 'PROCESSOR_REVISION': '8c01', 'ProgramData': 'C:\\ProgramData', 'ProgramFiles': 'C:\\Program Files', 'ProgramFiles(x86)': 'C:\\Program Files (x86)', 'ProgramW6432': 'C:\\Program Files', 'PROMPT': '$P$G', 'PSModulePath': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'PUBLIC': 'C:\\Users\\Public', 'SystemDrive': 'C:', 'SystemRoot': 'C:\\WINDOWS', 'TEMP': 'C:\\Users\\yudai\\AppData\\Local\\Temp', 'TMP': 'C:\\Users\\yudai\\AppData\\Local\\Temp', 'USERDOMAIN': 'LAPTOP-MNJFE5I1', 'USERDOMAIN_ROAMINGPROFILE': 'LAPTOP-MNJFE5I1', 'USERNAME': 'yudai', 'USERPROFILE': 'C:\\Users\\yudai', 'windir': 'C:\\WINDOWS', 'ZES_ENABLE_SYSMAN': '1', 'CL': '/MP'}, 'shell': False}
+[0.110000] (-) TimerEvent: {}
+[0.219000] (-) TimerEvent: {}
+[0.250000] (micro_ros_setup) StdoutLine: {'line': b'MSBuild \x82\xcc\x83o\x81[\x83W\x83\x87\x83\x93 17.8.5+b5265ef37 (.NET Framework)\r\n'}
+[0.281000] (micro_ros_setup) StdoutLine: {'line': b'\r\n'}
+[0.344000] (-) TimerEvent: {}
+[0.453000] (-) TimerEvent: {}
+[0.563000] (-) TimerEvent: {}
+[0.610000] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.625000] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.656000] (micro_ros_setup) Command: {'cmd': ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '--install', 'c:\\dev\\micro_ros_ws\\build\\micro_ros_setup', '--config', 'Release'], 'cwd': 'c:\\dev\\micro_ros_ws\\build\\micro_ros_setup', 'env': OrderedDict([('ALLUSERSPROFILE', 'C:\\ProgramData'), ('APPDATA', 'C:\\Users\\yudai\\AppData\\Roaming'), ('ChocolateyInstall', 'C:\\ProgramData\\chocolatey'), ('ChocolateyLastPathUpdate', '133858521267476712'), ('COLCON', '1'), ('CommonProgramFiles', 'C:\\Program Files\\Common Files'), ('CommonProgramFiles(x86)', 'C:\\Program Files (x86)\\Common Files'), ('CommonProgramW6432', 'C:\\Program Files\\Common Files'), ('COMPUTERNAME', 'LAPTOP-MNJFE5I1'), ('ComSpec', 'C:\\WINDOWS\\system32\\cmd.exe'), ('DriverData', 'C:\\Windows\\System32\\Drivers\\DriverData'), ('HOMEDRIVE', 'C:'), ('HOMEPATH', '\\Users\\yudai'), ('HOOPS_LICENSE_KEY', 'c480f7b0c8c5d9481972b65e5bb8%;feae791a3ea8364138cf2d013afcdba1c5161243159cce85783736b215543765278a49565401db0f07d7a21c7c8e79b7e332b480902bcbaca254b0728a1312b970b35c5f62ba9daa4739dc50e3a32e93b9be312778f2db4fa3083142a5a0de18b12616a6e748ba5d0daf5493279a73406f200e%;d0b9'), ('IGCCSVC_DB', 'AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA64KZRa+4tU6qWsK5kZm6QgQAAAACAAAAAAAQZgAAAAEAACAAAAB1EzhfxtanHg0xLDV2JgrGvCySV6RbFGb4LJbejwXpfgAAAAAOgAAAAAIAACAAAADRxknnqFfezujPOb/1LHwJyxEURHbesKT4yaw5Lh39QmAAAACcO/6r431eJpH2FRAIf0YnUpNs86AMg/BaPfnbsyx5JQ1B4lEO8V86NPeVVxAETr6aM6necuBtzWNHEdvfRqbVOOUiGpTF8QGC1zspKusqv2Wm92MaMCKgxxES7bODQGJAAAAAzE8tf2bBkcV5s1M2xxoHXx2S0SjGdCNeDA0u/WXaEMKTQBE+A8UhOeMa41PNBmUG6wgq7G3x3mEpVQr5ECgxWg=='), ('LOCALAPPDATA', 'C:\\Users\\yudai\\AppData\\Local'), ('LOGONSERVER', '\\\\LAPTOP-MNJFE5I1'), ('NUMBER_OF_PROCESSORS', '8'), ('OneDrive', 'C:\\Users\\yudai\\OneDrive'), ('OneDriveConsumer', 'C:\\Users\\yudai\\OneDrive'), ('OPENSSL_CONF', 'C:\\Program Files\\OpenSSL-Win64\\bin\\openssl.cfg'), ('OS', 'Windows_NT'), ('Path', 'C:\\Python38\\Scripts\\;C:\\Python38\\;C:\\SIMULIA\\Commands;C:\\Program Files\\Semeru\\jre-11.0.17.8-openj9\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86\\;C:\\Program Files (x86)\\Common Files\\Pulse Secure\\TNC Client Plugin\\;C:\\Program Files\\MATLAB\\R2022b\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PowerShell\\7\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Users\\yudai\\.cargo\\bin;C:\\Users\\yudai\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\yudai\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\texlive\\2023\\bin\\windows;C:\\Users\\yudai\\AppData\\Local\\atom\\bin;C:\\Users\\yudai\\pneumatic-arm-control;C:\\Users\\yudai\\mingw64\\bin;C:\\texlive\\2023\\tlpkg\\tlperl\\bin;C:\\Users\\yudai\\.dotnet\\tools;C:\\Users\\yudai\\AppData\\Roaming\\Programs\\Zero Install;C:\\Users\\yudai\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\OpenSSL-Win64\\bin'), ('PATHEXT', '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'), ('POWERSHELL_DISTRIBUTION_CHANNEL', 'MSI:Windows 10 Pro'), ('PROCESSOR_ARCHITECTURE', 'AMD64'), ('PROCESSOR_IDENTIFIER', 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'), ('PROCESSOR_LEVEL', '6'), ('PROCESSOR_REVISION', '8c01'), ('ProgramData', 'C:\\ProgramData'), ('ProgramFiles', 'C:\\Program Files'), ('ProgramFiles(x86)', 'C:\\Program Files (x86)'), ('ProgramW6432', 'C:\\Program Files'), ('PROMPT', '$P$G'), ('PSModulePath', 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'), ('PUBLIC', 'C:\\Users\\Public'), ('SystemDrive', 'C:'), ('SystemRoot', 'C:\\WINDOWS'), ('TEMP', 'C:\\Users\\yudai\\AppData\\Local\\Temp'), ('TMP', 'C:\\Users\\yudai\\AppData\\Local\\Temp'), ('USERDOMAIN', 'LAPTOP-MNJFE5I1'), ('USERDOMAIN_ROAMINGPROFILE', 'LAPTOP-MNJFE5I1'), ('USERNAME', 'yudai'), ('USERPROFILE', 'C:\\Users\\yudai'), ('windir', 'C:\\WINDOWS'), ('ZES_ENABLE_SYSMAN', '1')]), 'shell': False}
+[0.672000] (-) TimerEvent: {}
+[0.703000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.719000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.735000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.bat\n'}
+[0.750000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.750000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.bat\n'}
+[0.781000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.781000] (-) TimerEvent: {}
+[0.797000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bat\n'}
+[0.813000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.844000] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.844000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.860000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.875000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.875000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.875000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config\n'}
+[0.891000] (-) TimerEvent: {}
+[0.891000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.906000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.906000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android\n'}
+[0.922000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.938000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.938000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.953000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.969000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.985000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[1.000000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[1.000000] (-) TimerEvent: {}
+[1.016000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[1.031000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[1.047000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[1.063000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[1.063000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos\n'}
+[1.063000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[1.078000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[1.094000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[1.094000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[1.110000] (-) TimerEvent: {}
+[1.110000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[1.125000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[1.156000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[1.172000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[1.188000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[1.203000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[1.203000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[1.203000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[1.219000] (-) TimerEvent: {}
+[1.219000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[1.235000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[1.250000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[1.250000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[1.266000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[1.266000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[1.297000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[1.313000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[1.328000] (-) TimerEvent: {}
+[1.328000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[1.344000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[1.344000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[1.360000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[1.375000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[1.391000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[1.391000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[1.391000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[1.406000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[1.422000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[1.438000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[1.438000] (-) TimerEvent: {}
+[1.438000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[1.438000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[1.453000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[1.453000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[1.453000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[1.469000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[1.469000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[1.485000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[1.500000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[1.500000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[1.500000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[1.516000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[1.516000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[1.516000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[1.531000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[1.531000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[1.547000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[1.547000] (-) TimerEvent: {}
+[1.563000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[1.563000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[1.563000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[1.578000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[1.578000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[1.578000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[1.594000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[1.594000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[1.610000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[1.625000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[1.625000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[1.641000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[1.641000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[1.641000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[1.641000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[1.656000] (-) TimerEvent: {}
+[1.672000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[1.672000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[1.688000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[1.703000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[1.703000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[1.719000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[1.719000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[1.719000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[1.719000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[1.735000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[1.735000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[1.750000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[1.766000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[1.766000] (-) TimerEvent: {}
+[1.766000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[1.781000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[1.781000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host\n'}
+[1.797000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[1.797000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[1.797000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[1.797000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/generic\n'}
+[1.813000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[1.828000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[1.844000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[1.860000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[1.875000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[1.875000] (-) TimerEvent: {}
+[1.891000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[1.891000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian\n'}
+[1.891000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[1.891000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[1.891000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[1.906000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[1.906000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[1.922000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[1.938000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[1.953000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[1.953000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[1.985000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[1.985000] (-) TimerEvent: {}
+[1.985000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[1.985000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr\n'}
+[1.985000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[2.000000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[2.000000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[2.000000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[2.016000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[2.031000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[2.047000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[2.063000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[2.094000] (-) TimerEvent: {}
+[2.094000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[2.125000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[2.141000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[2.156000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[2.172000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[2.172000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[2.188000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[2.203000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[2.203000] (-) TimerEvent: {}
+[2.203000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[2.219000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[2.235000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[2.250000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[2.266000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[2.281000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[2.281000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: C:/dev/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[2.297000] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[2.313000] (-) TimerEvent: {}
+[2.328000] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[2.328000] (-) EventReactorShutdown: {}

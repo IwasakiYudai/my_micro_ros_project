@@ -1,0 +1,10 @@
+^C:\DEV\MICRO_ROS_WS\BUILD\MICRO_ROS_SETUP\CMAKEFILES\787F07454108EB0298E4F3FB58183B0E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/dev/micro_ros_ws/src/micro_ros_setup -BC:/dev/micro_ros_ws/build/micro_ros_setup --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/micro_ros_ws/build/micro_ros_setup/micro_ros_setup.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

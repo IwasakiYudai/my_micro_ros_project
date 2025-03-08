@@ -1,0 +1,4 @@
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+-- Found ament_cmake: 2.5.3 (C:/dev/ros2-jazzy/ros2-windows/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.1 (C:/dev/ros2-jazzy/ros2-windows/share/ament_lint_auto/cmake)
+-- Configuring incomplete, errors occurred!

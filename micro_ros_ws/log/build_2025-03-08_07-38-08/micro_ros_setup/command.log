@@ -1,0 +1,4 @@
+Invoking command in 'c:\dev\micro_ros_ws\build\micro_ros_setup': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build c:\dev\micro_ros_ws\build\micro_ros_setup --config Release
+Invoked command in 'c:\dev\micro_ros_ws\build\micro_ros_setup' returned '0': CL=/MP C:\Program Files\CMake\bin\cmake.EXE --build c:\dev\micro_ros_ws\build\micro_ros_setup --config Release
+Invoking command in 'c:\dev\micro_ros_ws\build\micro_ros_setup': C:\Program Files\CMake\bin\cmake.EXE --install c:\dev\micro_ros_ws\build\micro_ros_setup --config Release
+Invoked command in 'c:\dev\micro_ros_ws\build\micro_ros_setup' returned '0': C:\Program Files\CMake\bin\cmake.EXE --install c:\dev\micro_ros_ws\build\micro_ros_setup --config Release
